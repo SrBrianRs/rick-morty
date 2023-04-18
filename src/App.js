@@ -1,5 +1,6 @@
 import rickmortyimg from './img/rick-morty.png';
 import rickmortylogo from './img/logo.png';
+import credencial from './img/credencial.jpeg'
 import './App.css';
 import { useState } from 'react';
 import Characters from './components/Characters';
@@ -14,28 +15,33 @@ function App() {
     setCharacters(characterApi.results);
   };
   
+  
   console.log(characters);
   return (
     <div className="App" >
+      
       <header className="App-header">
-
+      <p>Brian Sanchez Robles S19004873</p>
+              
+            
         <img src={rickmortylogo} alt="Rick & Morty" className="img-home" />
 
         {characters ? (
           <Characters characters={characters} setCharacters={setCharacters} />
         ) : (
           <>
-            <p>Brian Sanchez Robles</p>
-              <p>s19004873
-            </p>
+          
             <img src={rickmortyimg} alt="Rick & Morty" className="img-home" />
+            
             <span onClick={reqApi} class="btn btn-one">
               Personajes
             </span>
-            <div class="box-2">
-  
-    
-  
+
+            
+
+            
+            <div className='App-crede' >
+            <img src={credencial} float="right" alt="Credencial" className="img-home" />
             </div>
           </>
         )}

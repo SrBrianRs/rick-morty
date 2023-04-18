@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.App-crede {
+  text-align: right;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("img/fondo.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +26,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-size: contain;
+  background-repeat: repeat;
 }
 
 .App-link {
@@ -36,3 +42,7 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+

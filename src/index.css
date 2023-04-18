@@ -1,10 +1,13 @@
 body {
+  background-image: url("img/fondo.jpg");
+  background-repeat: no-repeat ;
+
   margin: 0;
   font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #9e9e9e;
+  
 }
 
 .title {
@@ -17,10 +20,11 @@ body {
 .img-home {
   width: 380px;
   padding: 30px;
-  
- 
 }
 
+.izq {
+  position: relative;
+}
 
 
 .btn {
@@ -197,5 +201,7 @@ body {
     width: 150px;
   }
 }
+
+
 
 
